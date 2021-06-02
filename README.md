@@ -16,3 +16,10 @@ chmod +x jitsiUbuntu18.04.sh
 
 Then follow the script instruction
 
+
+#################################################################
+
+If you want use docker for jitsi:
+
+
+
