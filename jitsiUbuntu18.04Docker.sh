@@ -37,8 +37,8 @@ echo "org.jitsi.jicofo.auth.URL=XMPP:$dns" >> /etc/jitsi/jicofo/sip-communicator
 
 prosodyctl register root $dns $masterpass
 
-service prosody.service restart
-service jicofo.service restart
-service jitsi-videobridge2.service restart
+service prosody restart
+service jicofo restart
+service jitsi-videobridge2 restart
 
 echo "GO in $dsn for create conference login = root and password = $masterpass"
