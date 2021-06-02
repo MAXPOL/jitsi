@@ -9,11 +9,6 @@ apt update -y
 
 apt install certbot nano wget gnupg gnupg1 gnupg2 -y
 
-ufw allow 80/tcp
-ufw allow 443/tcp
-ufw allow 4443/tcp
-ufw allow 10000/udp
-
 cd /
 wget https://download.jitsi.org/jitsi-key.gpg.key
 apt-key add jitsi-key.gpg.key
