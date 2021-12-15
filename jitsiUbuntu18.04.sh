@@ -7,7 +7,7 @@ read masterpass
 
 apt update -y
 
-apt install certbot nano wget gnupg gnupg1 gnupg2 nginx-full curl software-properties-common apt-transport-https -y
+apt install certbot nano wget gnupg gnupg1 gnupg2 curl software-properties-common apt-transport-https -y
 
 apt update -y
 
